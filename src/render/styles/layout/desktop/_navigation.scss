@@ -1,0 +1,31 @@
+@media only screen and (min-width: 720px) { 
+  .navigation {
+    .nav-group {
+      float: right;
+      margin: -75px 50px 0 0;
+      .nav-item {
+        border-bottom: none;
+        padding-right: 10px;
+      }
+      .nav-item-feature {
+        background: white;
+        padding-left: 5px;
+        a {
+          color: #999;
+          margin-left: -12px;
+          font-family: monospace;
+          text-decoration: none;
+        }
+        .sub-menu {
+          display: none;
+        }
+      }
+      li {
+        display: inline-table;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

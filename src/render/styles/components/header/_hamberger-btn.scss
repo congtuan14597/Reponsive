@@ -1,0 +1,16 @@
+.hamberger-btn {
+  position: relative;
+  float: right;
+  a {
+    @include btn(absolute, -65px, -100px);
+    @include w-h(90px, 40px);
+    right: 10px;
+    border-radius: 2px;
+    .menu {
+      @include btn(absolute, 8px, 8px);
+    }
+    #span {
+      @include btn(absolute, 10px, 65px);
+    }
+  }
+}

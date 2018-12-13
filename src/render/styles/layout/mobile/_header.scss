@@ -1,0 +1,19 @@
+@media only screen and (min-width: $min-width-mobile) {
+  .hamberger-btn {
+    @include floatRight(relative, right);
+    margin-right: -48px;
+    a {
+      width: 40px;
+      .menu {
+        display: none;
+      }
+      #span {
+        position: absolute;
+        left: 10px;
+      }
+    }
+  }
+  .header-item {
+    display: none;
+  }
+}

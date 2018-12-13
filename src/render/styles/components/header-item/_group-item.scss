@@ -1,0 +1,29 @@
+.header-item {
+  background: $cl-black;
+  height: 45px;
+  border-bottom: 1px solid;
+  ul {
+    margin-left: 20px;
+    li {
+      display: inline-table;
+      line-height: 45px;
+      padding-right: 30px;
+      img {
+        padding-right: 10px;
+      }
+      span {
+        color: $cl-light-gray;
+      }
+      i {
+        color: $cl-teal-blue;
+      }
+    }
+  }
+}
+.cart-item {
+  float: right;
+  i {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}

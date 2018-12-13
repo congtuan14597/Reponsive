@@ -1,0 +1,15 @@
+.footer-group {
+  .footer-item {
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    &:hover {
+      &.__link {
+        text-decoration: none;
+      }
+    }
+    &.__link {
+      @include font($cl-gray, monospace);
+      text-decoration: none;
+    }
+  }
+}

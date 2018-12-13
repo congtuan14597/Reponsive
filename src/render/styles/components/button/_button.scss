@@ -1,0 +1,14 @@
+.button {
+  padding: 0 1em 0 1em;
+  margin-top: 170px;
+  &__btn {
+    @include w-h(100%, 3em);
+    background: white;
+    border: 1px solid #ddd;
+    i {
+      color: $cl-blue;
+      float: right;
+      margin-right: 15px;
+    }
+  }
+}

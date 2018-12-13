@@ -1,0 +1,57 @@
+.nav-group {
+  padding: 0 1em;
+  .nav-item {
+    @include lineHeight(3.5em, 3.5em);
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    a {
+      @include font($cl-gray, monospace);
+      font-weight: 300;
+      text-decoration: none;
+      i {
+        float: right;
+        line-height: 3.5em;
+      }
+    }
+  }
+  .nav-item-feature {
+    @include lineHeight(3.5em, 3.5em);
+    background: $cl-white;
+    border-bottom: 1px solid white;
+    list-style: none;
+    a {
+      color: $cl-dark-black;
+      text-decoration: none;
+      i {
+        float: right;
+      }
+    }
+    .sub-menu {
+      background: $cl-white;
+      border-bottom: 1px solid white;
+      p {
+        padding: 0 3em 0 3em;
+      }
+      ul {
+        padding-left: 4em;
+        margin-top: -15px;
+        li {
+          height: 3.5em;
+          a {
+            @include font($cl-teal-blue, monospace);
+          }
+        }
+      }
+    }
+  }
+}
+.nav-item:hover a {
+  text-decoration: none;
+}
+.nav-item-feature:hover a {
+  text-decoration: none;
+}
+#icon {
+  padding-right: 1em;
+  line-height: 3em;
+}

@@ -1,0 +1,94 @@
+DOCTYPE 
+html
+head
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible" content="ie=edge")
+  link(rel="stylesheet", href="styles/main.css")
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+  title Responsive  
+  != getBlock('scripts').toHTML()
+body
+  .container 
+    .header-item 
+      ul 
+        li 
+          img(src="images/email-icon.png", alt="")
+          span tranmautritam@gmail.com
+        li 
+          img(src="images/phone-icon.png", alt="")
+          span +84 935 815 989
+        li
+          img(src="images/skype-icon.png", alt="")
+          span mr.crazykv
+        li.cart-item 
+          i.fa.fa-shopping-cart 
+          span Cart item 
+    .header  
+      .logo 
+        img(src="images/logo.png", alt="")
+        span 
+          img(src="images/adelfox.png", alt="")
+      .hamberger-btn 
+        a(id="btn" class="btn btn-info btn-lg")(href="#") 
+          span.menu MENU  
+          span(id="span" class="glyphicon glyphicon-menu-hamburger")
+    .navigation 
+      ul.nav-group 
+        li.nav-item 
+          a(href="#") Home 
+            i.fa.fa-angle-down
+        li.nav-item 
+          a(href="#") Page 
+            i.fa.fa-angle-down
+        li.nav-item
+          a(href="#") Portfolio 
+            i.fa.fa-angle-down
+        li.nav-item 
+          a(href="#") Shop 
+            i.fa.fa-angle-down
+        li.nav-item 
+          a(href="#") Blog 
+            i.fa.fa-angle-down
+        li.nav-item 
+          a(href="#") Shortcodes 
+            i.fa.fa-angle-down
+        li.nav-item-feature 
+          a.nav-item-feature(href="#") Featured 
+            i(id="icon" class="fa fa-angle-up")
+          .sub-menu 
+            p Layer Slider Banner 
+            ul 
+              li
+                a(href="#") Sub Menu Level 2 
+              li
+                a(href="#") Sub Menu Level 2  
+              li
+                a(href="#") Sub Menu Level 2 
+              li
+                a(href="#") Sub Menu Level 2 
+          .sub-menu 
+            p Layer Slider Banner
+            ul
+              li
+                a(href="#") Sub Menu Level 2
+              li
+                a(href="#") Sub Menu Level 2
+              li
+                a(href="#") Sub Menu Level 2
+              li
+                a(href="#") Sub Menu Level 2
+    .footer  
+      ul.footer-group
+        li.footer-item 
+          a.__link(href="#") Email:tranmautritam@gmail.com
+        li.footer-item 
+          a.__link(href="#") Phone:+84 935 815 989
+        li.footer-item
+          a.__link(href="#") Skype:mr.crazykv
+        li.footer-item
+          a.__link(href="#") Cart: items
+    .button 
+      button.button__btn 
+        i.fa.fa-search 
+        

@@ -1,0 +1,9 @@
+%f-header {
+  @include w-h(100%, 100px);
+  background: #555;
+}
+%f-footer {
+  @include lineHeight(3.5em, 3.5em);
+  margin-top: 527px;
+  padding: 0 1em;
+}

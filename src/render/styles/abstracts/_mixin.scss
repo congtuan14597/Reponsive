@@ -1,0 +1,21 @@
+@mixin w-h($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin font($color, $f-family) {
+  color: $color;
+  font-family: $f-family;
+}
+@mixin lineHeight($height, $l-height) {
+  height: $height;
+  line-height: $l-height;
+}
+@mixin btn($pos, $top, $left) {
+  position: $pos;
+  top: $top;
+  left: $left;
+}
+@mixin floatRight($pos, $f-right) {
+  position: $pos;
+  float: $f-right;
+}
